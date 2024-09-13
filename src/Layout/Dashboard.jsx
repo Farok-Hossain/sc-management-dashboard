@@ -1,7 +1,19 @@
+import { RiDashboard2Fill } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
+
 const Dashboard = () => {
   return (
     <div>
-      <h1>Dashboard added</h1>
+      <div>
+        <ul>
+          <li>
+            <NavLink to="/home">
+              <RiDashboard2Fill />
+              Dashboard
+            </NavLink>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
