@@ -1,16 +1,37 @@
 import { RiDashboard2Fill } from "react-icons/ri";
-import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
   return (
     <div>
-      <div>
-        <ul>
+      <div className=" w-52 min-h-screen bg-blue-900">
+        <ul className=" p-4 text-white ">
           <li>
-            <NavLink to="/home">
-              <RiDashboard2Fill />
-              Dashboard
-            </NavLink>
+            <RiDashboard2Fill />
+            Dashboard
+          </li>
+          <li>
+            <RiDashboard2Fill className="text-pink-500" />
+            Students
+          </li>
+          <li>
+            <RiDashboard2Fill className="text-pink-500" />
+            Parents
+          </li>
+          <li>
+            <RiDashboard2Fill className="text-pink-500" />
+            Teachers
+          </li>
+          <li>
+            <RiDashboard2Fill className="text-pink-500" />
+            Account
+          </li>
+          <li>
+            <RiDashboard2Fill className="text-pink-500" />
+            Subject
+          </li>
+          <li>
+            <RiDashboard2Fill className="text-pink-500" />
+            Settings
           </li>
         </ul>
       </div>
