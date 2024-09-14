@@ -1,7 +1,7 @@
-import { GoBook } from "react-icons/go";
-import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
-import { LiaPeopleCarrySolid } from "react-icons/lia";
-import { MdAccountBalanceWallet } from "react-icons/md";
+// import { GoBook } from "react-icons/go";
+// import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
+// import { LiaPeopleCarrySolid } from "react-icons/lia";
+// import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiDashboard2Fill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
@@ -16,7 +16,8 @@ const Dashboard = () => {
               Dashboard
             </NavLink>
           </li>
-          <li>
+
+          {/* <li>
             <LiaPeopleCarrySolid className="text-xl" />
             Students
           </li>
@@ -39,7 +40,7 @@ const Dashboard = () => {
           <li>
             <IoSettingsOutline className="text-xl" />
             Settings
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
