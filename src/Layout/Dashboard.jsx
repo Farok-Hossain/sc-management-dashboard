@@ -1,9 +1,9 @@
-import { FaHome } from "react-icons/fa";
 import { GoBook } from "react-icons/go";
 import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
 import { LiaPeopleCarrySolid } from "react-icons/lia";
 import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiDashboard2Fill } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -11,8 +11,10 @@ const Dashboard = () => {
       <div className=" w-52 min-h-screen bg-blue-900">
         <ul className=" p-4 text-white ">
           <li>
-            <RiDashboard2Fill className="text-xl" />
-            Dashboard
+            <NavLink to="/dashboard">
+              <RiDashboard2Fill className="text-xl" />
+              Dashboard
+            </NavLink>
           </li>
           <li>
             <LiaPeopleCarrySolid className="text-xl" />
