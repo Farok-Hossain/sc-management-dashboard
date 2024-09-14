@@ -1,36 +1,41 @@
+import { FaHome } from "react-icons/fa";
+import { GoBook } from "react-icons/go";
+import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
+import { LiaPeopleCarrySolid } from "react-icons/lia";
+import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiDashboard2Fill } from "react-icons/ri";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="flex">
       <div className=" w-52 min-h-screen bg-blue-900">
         <ul className=" p-4 text-white ">
           <li>
-            <RiDashboard2Fill />
+            <RiDashboard2Fill className="text-xl" />
             Dashboard
           </li>
           <li>
-            <RiDashboard2Fill className="text-pink-500" />
+            <LiaPeopleCarrySolid className="text-xl" />
             Students
           </li>
           <li>
-            <RiDashboard2Fill className="text-pink-500" />
+            <IoPeople className="text-xl" />
             Parents
           </li>
           <li>
-            <RiDashboard2Fill className="text-pink-500" />
+            <IoManSharp className="text-xl" />
             Teachers
           </li>
           <li>
-            <RiDashboard2Fill className="text-pink-500" />
+            <MdAccountBalanceWallet className="text-xl" />
             Account
           </li>
           <li>
-            <RiDashboard2Fill className="text-pink-500" />
+            <GoBook className="text-xl" />
             Subject
           </li>
           <li>
-            <RiDashboard2Fill className="text-pink-500" />
+            <IoSettingsOutline className="text-xl" />
             Settings
           </li>
         </ul>
