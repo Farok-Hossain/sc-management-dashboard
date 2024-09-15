@@ -2,8 +2,8 @@
 // import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
 // import { LiaPeopleCarrySolid } from "react-icons/lia";
 // import { MdAccountBalanceWallet } from "react-icons/md";
-import { RiDashboard2Fill } from "react-icons/ri";
-import { NavLink } from "react-router-dom";
+// import { RiDashboard2Fill } from "react-icons/ri";
+// import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -11,13 +11,16 @@ const Dashboard = () => {
       <div className=" w-52 min-h-screen bg-blue-900">
         <ul className=" p-4 text-white ">
           <li>
-            <NavLink to="/dashboard">
+            <h1>Dashoard</h1>
+          </li>
+          {/* <li>
+            <Link to="/dashboard">
               <RiDashboard2Fill className="text-xl" />
               Dashboard
-            </NavLink>
+            </Link>
           </li>
 
-          {/* <li>
+          <li>
             <LiaPeopleCarrySolid className="text-xl" />
             Students
           </li>
