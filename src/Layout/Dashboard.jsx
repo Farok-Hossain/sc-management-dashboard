@@ -1,19 +1,16 @@
-// import { GoBook } from "react-icons/go";
-// import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
-// import { LiaPeopleCarrySolid } from "react-icons/lia";
-// import { MdAccountBalanceWallet } from "react-icons/md";
-// import { RiDashboard2Fill } from "react-icons/ri";
-// import { Link } from "react-router-dom";
+import { GoBook } from "react-icons/go";
+import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
+import { LiaPeopleCarrySolid } from "react-icons/lia";
+import { MdAccountBalanceWallet } from "react-icons/md";
+import { RiDashboard2Fill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className="flex">
+    <div className="">
       <div className=" w-52 min-h-screen bg-blue-900">
         <ul className=" p-4 text-white ">
           <li>
-            <h1>Dashoard</h1>
-          </li>
-          {/* <li>
             <Link to="/dashboard">
               <RiDashboard2Fill className="text-xl" />
               Dashboard
@@ -43,7 +40,7 @@ const Dashboard = () => {
           <li>
             <IoSettingsOutline className="text-xl" />
             Settings
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>
