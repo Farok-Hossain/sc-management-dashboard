@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className="">
+    <div className=" mt-20">
       <div className=" w-52 min-h-screen bg-blue-900">
         <ul className=" p-4 text-white ">
           <li>
