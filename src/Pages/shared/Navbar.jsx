@@ -1,3 +1,7 @@
+import { GoBook } from "react-icons/go";
+import { IoManSharp, IoPeople, IoSettingsOutline } from "react-icons/io5";
+import { LiaPeopleCarrySolid } from "react-icons/lia";
+import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiDashboard2Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
@@ -11,6 +15,30 @@ const Navbar = () => {
           Dashboard
         </Link>
         <Link to="/dashboard">Dashboard</Link>
+        <Link>
+          <LiaPeopleCarrySolid className="text-xl" />
+          Students
+        </Link>
+        <Link>
+          <IoPeople className="text-xl" />
+          Parents
+        </Link>
+        <Link>
+          <IoManSharp className="text-xl" />
+          Teachers
+        </Link>
+        <li>
+          <MdAccountBalanceWallet className="text-xl" />
+          Account
+        </li>
+        <li>
+          <GoBook className="text-xl" />
+          Subject
+        </li>
+        <li>
+          <IoSettingsOutline className="text-xl" />
+          Settings
+        </li>
       </div>
     </div>
   );
