@@ -27,18 +27,18 @@ const Navbar = () => {
           <IoManSharp className="text-xl" />
           Teachers
         </Link>
-        <li>
+        <Link>
           <MdAccountBalanceWallet className="text-xl" />
           Account
-        </li>
-        <li>
+        </Link>
+        <Link>
           <GoBook className="text-xl" />
           Subject
-        </li>
-        <li>
+        </Link>
+        <Link>
           <IoSettingsOutline className="text-xl" />
           Settings
-        </li>
+        </Link>
       </div>
     </div>
   );
